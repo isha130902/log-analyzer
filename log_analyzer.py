@@ -4,10 +4,10 @@ from collections import defaultdict
 with open("logfile.txt", "r") as file:
     logs = file.readlines()
 
-# Step 2: Create a dictionary to track failed login attempts
+#Create a dictionary to track failed login attempts
 failed_attempts = defaultdict(int)
 
-# Step 3: Analyze the log lines
+# Analyze the log lines
 for line in logs:
     if "login failed" in line:
         # Extract the username (last word in the line)
@@ -15,8 +15,8 @@ for line in logs:
         username = parts[-1]
         failed_attempts[username] += 1
 
-# Step 4: Display suspicious users and write to report.txt
-print("\n🔍 Suspicious Users Detected:\n")
+# Display suspicious users and write to report.txt
+print("\n Suspicious Users Detected:\n")
 
 with open("report.txt", "w", encoding="utf-8") as report:
     suspicious_found = False
