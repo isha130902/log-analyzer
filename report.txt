@@ -1,0 +1,2 @@
+  User 'admin' had 4 failed login attempts!
+  User 'guest' had 3 failed login attempts!

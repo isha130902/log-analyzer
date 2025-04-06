@@ -1,0 +1,8 @@
+[2025-04-06 10:01:12] login failed for user admin
+[2025-04-06 10:01:20] login failed for user admin
+[2025-04-06 10:01:35] login failed for user admin
+[2025-04-06 10:01:36] login failed for user admin
+[2025-04-06 10:02:00] login successful for user admin
+[2025-04-06 10:03:45] login failed for user guest
+[2025-04-06 10:04:00] login failed for user guest
+[2025-04-06 10:04:12] login failed for user guest
